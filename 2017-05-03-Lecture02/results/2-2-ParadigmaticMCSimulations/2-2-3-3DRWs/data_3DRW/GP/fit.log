@@ -1,0 +1,348 @@
+
+
+*******************************************************************************
+Wed May  3 12:18:31 2017
+
+
+FIT:    data read from '../res_3DRW_M200_G0.3.out' u 1:2:3
+        format = x:z:s
+        #datapoints = 12
+function used for fitting: f(x)
+	f(x)=a*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 6.2761453029e+02   0.00e+00  2.73e+01    1.000000e+00
+   3 1.1165045618e+01  -2.26e-02  2.73e-02    1.262073e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 11.165
+rel. change during last iteration : -2.26498e-07
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.00747
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.015
+p-value of the Chisq distribution (FIT_P)              : 0.429542
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.26207          +/- 0.01063      (0.8426%)
+
+
+*******************************************************************************
+Wed May  3 12:18:54 2017
+
+
+FIT:    data read from '../res_3DRW_M200_G0.3.out' u 1:2:3
+        format = x:z:s
+        #datapoints = 12
+function used for fitting: f(x)
+	f(x)=a*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 6.2761453029e+02   0.00e+00  2.73e+01    1.000000e+00
+   3 1.1165045618e+01  -2.26e-02  2.73e-02    1.262073e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 11.165
+rel. change during last iteration : -2.26498e-07
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.00747
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.015
+p-value of the Chisq distribution (FIT_P)              : 0.429542
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.26207          +/- 0.01063      (0.8426%)
+
+
+*******************************************************************************
+Wed May  3 12:19:09 2017
+
+
+FIT:    data read from '../res_3DRW_M200_G0.3.out' u 1:2:3
+        format = x:z:s
+        #datapoints = 12
+function used for fitting: f(x)
+	f(x)=a*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 6.2761453029e+02   0.00e+00  2.73e+01    1.000000e+00
+   3 1.1165045618e+01  -2.26e-02  2.73e-02    1.262073e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 11.165
+rel. change during last iteration : -2.26498e-07
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.00747
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.015
+p-value of the Chisq distribution (FIT_P)              : 0.429542
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.26207          +/- 0.01063      (0.8426%)
+
+
+*******************************************************************************
+Wed May  3 12:19:32 2017
+
+
+FIT:    data read from '../res_3DRW_M200_G0.3.out' u 1:2:3
+        format = x:z:s
+        #datapoints = 12
+function used for fitting: f(x)
+	f(x)=a*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 6.2761453029e+02   0.00e+00  2.73e+01    1.000000e+00
+   3 1.1165045618e+01  -2.26e-02  2.73e-02    1.262073e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 11.165
+rel. change during last iteration : -2.26498e-07
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.00747
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.015
+p-value of the Chisq distribution (FIT_P)              : 0.429542
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.26207          +/- 0.01063      (0.8426%)
+
+
+*******************************************************************************
+Wed May  3 12:19:48 2017
+
+
+FIT:    data read from '../res_3DRW_M200_G0.3.out' u 1:2:3
+        format = x:z:s
+        #datapoints = 12
+function used for fitting: f(x)
+	f(x)=a*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 6.2761453029e+02   0.00e+00  2.73e+01    1.000000e+00
+   3 1.1165045618e+01  -2.26e-02  2.73e-02    1.262073e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 11.165
+rel. change during last iteration : -2.26498e-07
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.00747
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.015
+p-value of the Chisq distribution (FIT_P)              : 0.429542
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.26207          +/- 0.01063      (0.8426%)
+
+
+*******************************************************************************
+Wed May  3 12:20:13 2017
+
+
+FIT:    data read from '../res_3DRW_M200_G0.3.out' u 1:2:3
+        format = x:z:s
+        #datapoints = 12
+function used for fitting: f(x)
+	f(x)=a*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 6.2761453029e+02   0.00e+00  2.73e+01    1.000000e+00
+   3 1.1165045618e+01  -2.26e-02  2.73e-02    1.262073e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 11.165
+rel. change during last iteration : -2.26498e-07
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.00747
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.015
+p-value of the Chisq distribution (FIT_P)              : 0.429542
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.26207          +/- 0.01063      (0.8426%)
+
+
+*******************************************************************************
+Wed May  3 12:20:52 2017
+
+
+FIT:    data read from '../res_3DRW_M200_G0.3.out' u 1:2:3
+        format = x:z:s
+        #datapoints = 12
+function used for fitting: f(x)
+	f(x)=a*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 6.2761453029e+02   0.00e+00  2.73e+01    1.000000e+00
+   3 1.1165045618e+01  -2.26e-02  2.73e-02    1.262073e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 11.165
+rel. change during last iteration : -2.26498e-07
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.00747
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.015
+p-value of the Chisq distribution (FIT_P)              : 0.429542
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.26207          +/- 0.01063      (0.8426%)
+
+
+*******************************************************************************
+Wed May  3 12:21:06 2017
+
+
+FIT:    data read from '../res_3DRW_M200_G0.3.out' u 1:2:3
+        format = x:z:s
+        #datapoints = 12
+function used for fitting: f(x)
+	f(x)=a*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 6.2761453029e+02   0.00e+00  2.73e+01    1.000000e+00
+   3 1.1165045618e+01  -2.26e-02  2.73e-02    1.262073e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 11.165
+rel. change during last iteration : -2.26498e-07
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.00747
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.015
+p-value of the Chisq distribution (FIT_P)              : 0.429542
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.26207          +/- 0.01063      (0.8426%)
+
+
+*******************************************************************************
+Wed May  3 12:21:14 2017
+
+
+FIT:    data read from '../res_3DRW_M200_G0.3.out' u 1:2:3
+        format = x:z:s
+        #datapoints = 12
+function used for fitting: f(x)
+	f(x)=a*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 6.2761453029e+02   0.00e+00  2.73e+01    1.000000e+00
+   3 1.1165045618e+01  -2.26e-02  2.73e-02    1.262073e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 11.165
+rel. change during last iteration : -2.26498e-07
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.00747
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.015
+p-value of the Chisq distribution (FIT_P)              : 0.429542
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.26207          +/- 0.01063      (0.8426%)
+
+
+*******************************************************************************
+Wed May  3 12:21:43 2017
+
+
+FIT:    data read from '../res_3DRW_M200_G0.5.out' u 1:2:3
+        format = x:z:s
+        #datapoints = 12
+function used for fitting: f(x)
+	f(x)=a*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 2.0462881633e+03   0.00e+00  2.20e+01    1.000000e+00
+   3 1.6291694589e+01  -5.11e-02  2.20e-02    1.591534e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 16.2917
+rel. change during last iteration : -5.11159e-07
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.21699
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.48106
+p-value of the Chisq distribution (FIT_P)              : 0.130643
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.59153          +/- 0.01598      (1.004%)
+
+
+*******************************************************************************
+Wed May  3 12:21:59 2017
+
+
+FIT:    data read from '../res_3DRW_M200_G0.7.out' u 1:2:3
+        format = x:z:s
+        #datapoints = 12
+function used for fitting: f(x)
+	f(x)=a*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 4.5004940841e+03   0.00e+00  1.70e+01    1.000000e+00
+   3 1.7793645648e+01  -1.03e-01  1.70e-02    2.139591e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 17.7936
+rel. change during last iteration : -1.03348e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.27185
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.6176
+p-value of the Chisq distribution (FIT_P)              : 0.0864939
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.13959          +/- 0.02165      (1.012%)
+
+
+*******************************************************************************
+Wed May  3 12:22:14 2017
+
+
+FIT:    data read from '../res_3DRW_M200_G0.9.out' u 1:2:3
+        format = x:z:s
+        #datapoints = 12
+function used for fitting: f(x)
+	f(x)=a*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.2287461961e+04   0.00e+00  1.33e+01    1.000000e+00
+   3 4.3746112899e+02  -1.11e-02  1.33e-02    3.370601e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 437.461
+rel. change during last iteration : -1.11124e-07
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.30628
+variance of residuals (reduced chisquare) = WSSR/ndf   : 39.7692
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.3706           +/- 0.1373       (4.074%)

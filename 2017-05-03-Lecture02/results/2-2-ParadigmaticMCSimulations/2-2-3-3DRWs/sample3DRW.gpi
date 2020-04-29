@@ -1,0 +1,5 @@
+
+sp '<python main_3DRW.py 1000 0.7 ' u 2:3:4  w l\
+, '<python main_3DRW.py 1000 0.7' u 2:3:4 w l\
+, '<python main_3DRW.py 1000 0.7' u 2:3:4 w l
+

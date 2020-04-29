@@ -1,0 +1,27 @@
+
+
+LW=1.
+PS=1.
+set style line 1 lw LW lt 1 ps PS pt 6 lc rgb "red"
+set style line 2 lw LW lt 2 ps PS pt 8 lc rgb "blue"
+
+set key samplen 1.
+
+set format y "10^{%L}"
+set xlabel "r  [{/Symbol m}m]" 
+set ylabel "{/Symbol F}  [W {/Symbol m}m^{-2}]"
+
+set label 1 "{/Symbol m}_a = 2   [cm^{-1}]\n\n{/Symbol m}_s = 20 [cm^{-1}]\n\n{/Times-Italic N}_{/Symbol g} = 10^4" at graph 0.5,0.7
+
+set size 0.7,0.5
+set lmargin at screen 0.1
+
+ma=2
+ms=20
+p(x) = (3/(4*pi*x))*ma*exp(-sqrt(3*ma*(ma+ms))*x)*(ma+ms)
+
+set logs y
+
+p '../fluenceRateMC_N10000_MUA2._MUS20._G0.0.dat' u 1:2 w l ls 2 t "MC g = 0.0"\
+, p(x) w l ls 2 dashtype '-' t "Diffusion approximation"
+

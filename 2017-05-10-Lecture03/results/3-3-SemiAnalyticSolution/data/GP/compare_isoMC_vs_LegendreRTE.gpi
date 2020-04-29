@@ -1,0 +1,7 @@
+
+
+set logs y
+
+set xr [:5]
+p  '../ssf_RTE.dat' u 1:2 w l, '../test_g0.0.dat' u (($1+0.002)*10):($2/1000) w l
+

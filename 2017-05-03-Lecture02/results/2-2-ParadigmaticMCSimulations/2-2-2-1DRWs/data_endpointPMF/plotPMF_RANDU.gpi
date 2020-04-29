@@ -1,0 +1,19 @@
+
+set pointsize 1.3
+
+set xlabel "y"
+set ylabel "p(Y_N=y)" 
+
+set size 0.55,0.5
+
+set logs y
+set format y "10^{%L}"
+set lmargin at screen 0.1
+
+p 'pmf_RANDU_N10_M100000.dat' u 1:3 w  p pt 5 lc rgb 'purple' t "N=10", '' u ($1-1):4 w steps  lc rgb 'purple' notitle\
+, 'pmf_RANDU_N50_M100000.dat'  u 1:3 w  p pt 7 lc rgb 'blue' t "50", '' u ($1-1):4 w steps lc rgb 'blue' notitle\
+, 'pmf_RANDU_N100_M100000.dat'  u 1:3 w  p pt 9 lc rgb 'red' t "100", '' u ($1-1):4 w steps lc rgb 'red' notitle
+
+
+
+

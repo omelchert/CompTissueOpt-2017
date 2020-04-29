@@ -1,0 +1,15 @@
+
+set size 0.6,0.6
+
+set key left
+
+set xlabel 'R'
+set ylabel 'p(R)'
+
+p '../resHist_3DRW_M100000_G0.1.out' u 1:2:3 w yerrorlines t 'g=0.1'\
+, '../resHist_3DRW_M100000_G0.3.out' u 1:2:3 w yerrorlines t '0.3'\
+, '../resHist_3DRW_M100000_G0.5.out' u 1:2:3 w yerrorlines t '0.5'\
+, '../resHist_3DRW_M100000_G0.7.out' u 1:2:3 w yerrorlines t '0.7'\
+, '../resHist_3DRW_M100000_G0.9.out' u 1:2:3 w yerrorlines t '0.9'
+
+

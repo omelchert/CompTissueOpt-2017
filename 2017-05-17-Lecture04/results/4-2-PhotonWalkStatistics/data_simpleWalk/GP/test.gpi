@@ -1,0 +1,12 @@
+
+
+f(x,R)=(3./2/pi/R/R)**(3./2)*exp(-3.*x*x/2./R/R)*4*pi*x*x
+
+R=3.2326
+
+set logs  y
+
+p '<myHist ../simpleWalk.dat 1 30' u (0.5*($1+$2)):3:4 w lp\
+, f(x,R) w l
+
+

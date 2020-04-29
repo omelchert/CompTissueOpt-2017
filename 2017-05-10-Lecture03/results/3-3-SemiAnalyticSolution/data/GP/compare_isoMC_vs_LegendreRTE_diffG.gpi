@@ -1,0 +1,27 @@
+
+
+set style line 1 lt 1 lc 'red'
+set style line 2 lt 1 lc 'blue'
+set style line 3 lt 1 lc 'green'
+
+set size 0.7,0.6
+set lmargin at screen 0.1
+
+set xlabel "r [mm]"
+set ylabel "{/Symbol F} [W/m^2]"
+
+set label 1 "{/Symbol m}_a = 1.0 [mm^{-1}]" at graph 0.2,0.9
+set label 2 "{/Symbol m}_s = 1.0 [mm^{-1}]" at graph 0.2,0.8
+
+set logs y
+set format y  "10^{%L}"
+
+
+set xr [:5]
+p  '../ssf_RTE_G0.0.dat' u 1:2 w l ls 1 dashtype '-' t "LE-RTE g = 0.0"\
+,  '../ssf_RTE_G0.5.dat' u 1:2 w l ls 2 dashtype '-' t "0.5"\
+,  '../ssf_RTE_G0.9.dat' u 1:2 w l ls 3 dashtype '-' t "0.9"\
+, '../fluenceRateMC_N10000_G0.0.dat' u (($1+0.002)*10):($2/1000) w l ls 1 t "MC-RTE g= 0.0"\
+, '../fluenceRateMC_N10000_G0.5.dat' u (($1+0.002)*10):($2/1000) w l ls 2 t "0.5"\
+, '../fluenceRateMC_N10000_G0.9.dat' u (($1+0.002)*10):($2/1000) w l ls 3 t "0.9"
+

@@ -1,0 +1,13 @@
+
+set xlabel "R"
+set ylabel "f(R)"
+
+
+set xr [:50]
+
+set style line 1 lw 1 lt 1 lc rgb "black" dashtype 2
+
+p '../rTest_BAD_N20_M100000.dat' u 1:2:3 w yerrorbars pt 5 , '' u 1:4 w l ls 1 notitle\
+, '../rTest_BAD_N100_M100000.dat' u 1:2:3 w yerrorbars pt 7 , '' u 1:4 w l ls 1 notitle\
+, '../rTest_BAD_N500_M100000.dat' u 1:2:3 w yerrorbars pt 9 , '' u 1:4 w l ls 1 notitle\
+

@@ -1,0 +1,11 @@
+
+
+set size 0.6,0.4
+
+set xlabel '{/Symbol m}_a [cm^{-1}]'
+set ylabel 'av(N)'
+
+p './summaryStats.dat' u 1:8:9  w yerrorlines notitle
+
+
+

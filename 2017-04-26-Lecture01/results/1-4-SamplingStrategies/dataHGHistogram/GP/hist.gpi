@@ -1,0 +1,9 @@
+
+
+set xlabel '{/Symbol m}'
+set ylabel 'p({/Symbol m})'
+
+p '../hist_g0.95_N1000000.dat' u 1:2:3 w yerrorbars, '' u 1:4 w l notitle  
+
+#../hist_g0.7_N1000000.dat
+#../hist_g0.95_N1000000.dat

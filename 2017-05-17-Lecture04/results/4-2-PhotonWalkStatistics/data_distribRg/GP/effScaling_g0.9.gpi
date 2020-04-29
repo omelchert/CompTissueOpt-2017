@@ -1,0 +1,19 @@
+
+
+
+
+f(x,R)=d*exp(-c*x)*(x-b)**a
+a               = 8.02322      
+d               = 1.07943e+09  
+c               = 36.3362      
+b               = -0.0263489    
+fit [x=0.1:0.7] f(x,0.2351) '<myHist ../Rg_N100000_MUA20.0_MUS20.0_G0.9.dat 1 30' u (0.5*($1+$2) ):3:4 via a,d,c,b
+
+
+set logs y
+#set logs x
+
+p '<myHist ../Rg_N100000_MUA20.0_MUS20.0_G0.9.dat 1 30' u (0.5*($1+$2) ):3:4 w yerrorbars ls 4 t '0.9'\
+, f(x, 0.2351 ) w l ls 4 dashtype '-' notitle \
+
+

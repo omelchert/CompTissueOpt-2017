@@ -1,0 +1,35 @@
+
+
+f(x,R)=(3./2/pi/R/R)**(3./2)*exp(-3.*x*x/2./R/R)*4*pi*x*x
+
+set style line 1 lt 1 pt 5 lc rgb 'red'
+set style line 2 lt 1 pt 7 lc rgb 'blue'
+set style line 3 lt 1 pt 9 lc rgb 'green'
+set style line 4 lt 1 pt 11 lc rgb 'yellow'
+
+
+set size 0.9, 0.5
+set lmargin at screen 0.1
+set rmargin at screen 0.9
+
+
+set yr [0.0001:]
+set logs y
+set format y "10^{%L}"
+
+set xlabel 'R'
+set ylabel 'pdf(R)'
+
+set label 1 '{/Symbol m}_a=1~cm^{-1}' at screen 0.65, 0.43
+set label 2 '{/Symbol m}_s=20~cm^{-1}' at screen 0.65, 0.38
+
+
+
+p '<myHist ../Rg_N100000_MUA1.0_MUS20.0_G0.0.dat 1 30' u (0.5*($1+$2)  ):3:4 w yerrorbars ls 1 t 'g = 0.0',  f(x , 0.8178 ) w l ls 1 dashtype '-' notitle\
+, '<myHist ../Rg_N100000_MUA1.0_MUS20.0_G0.5.dat 1 30' u (0.5*($1+$2) ):3:4 w yerrorbars ls 2 t '0.5',  f(x, 1.1358 ) w l ls 2 dashtype '-' notitle \
+, '<myHist ../Rg_N100000_MUA1.0_MUS20.0_G0.7.dat 1 30' u (0.5*($1+$2)  ):3:4 w yerrorbars ls 3 t '0.7', f(x, 1.4762 ) w l ls 3 dashtype '-' notitle  \
+, '<myHist ../Rg_N100000_MUA1.0_MUS20.0_G0.9.dat 1 30' u (0.5*($1+$2) ):3:4 w yerrorbars ls 4 t '0.9', f(x, 2.4986 ) w l ls 4 dashtype '-' notitle \
+
+
+#, '<myHist ../Rg_N10000_MUA1.0_MUS20.0_G0.3.dat 1 30' u (0.5*($1+$2) ):3:4 w yerrorbars ls 2 t '0.3',  f(x, 0.9737 ) w l ls 2 dashtype '-' notitle \
+

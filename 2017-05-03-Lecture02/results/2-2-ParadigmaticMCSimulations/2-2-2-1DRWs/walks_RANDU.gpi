@@ -1,0 +1,19 @@
+
+set xzeroaxis
+set ylabel 'x(t)'
+set xlabel 't'
+
+set ytics -500,50,500
+
+set size 1.0,1.0
+set size 1.0,0.4
+
+
+p '<python main_1DRW.py 10000 1 RANDU' u 1:2 w l notitle\
+, '<python main_1DRW.py 10000 11 RANDU' u 1:2 w l lt 1 lc 'green' notitle\
+, '<python main_1DRW.py 10000 21 RANDU' u 1:2 w l lt 1 lc 'red' notitle\
+, '<python main_1DRW.py 10000 31 RANDU' u 1:2 w l lt 1 lc 'blue'  notitle
+
+
+
+

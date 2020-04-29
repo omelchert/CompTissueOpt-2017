@@ -1,0 +1,17 @@
+
+
+set xr [-0.5:3.5]
+set xtics ("MT" 0, "BAD" 1,"RANDU" 2,  "MIN" 3)
+
+set ylabel "av({/Symbol p}) +/- sErr" offset 0.,-4.0 
+
+set size 0.8,0.4
+
+p '<python main_estimatePi_siSaStats.py 10000 20 MT  '   u (0):1:2 w  yerrorbars ps 1.5 pt 7 notitle\
+, '<python main_estimatePi_siSaStats.py 10000 20 BAD '   u (1):1:2 w  yerrorbars ps 1.5 pt 7 notitle\
+, '<python main_estimatePi_siSaStats.py 10000 20 RANDU ' u (2):1:2 w  yerrorbars ps 1.5 pt 7 notitle\
+, '<python main_estimatePi_siSaStats.py 10000 20 MIN '   u (3):1:2 w  yerrorbars ps 1.5 pt 7 notitle\
+, pi w l lt 1 dashtype 2 lw 2 lc "black"  notitle
+
+
+

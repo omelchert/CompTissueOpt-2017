@@ -1,0 +1,8 @@
+
+set xlabel 'g'
+set ylabel 'R_0(g)'
+
+set size 0.6,0.6
+p '../fit.dat' u 1:2:3 w yerrorlines pt 6 notitle
+
+

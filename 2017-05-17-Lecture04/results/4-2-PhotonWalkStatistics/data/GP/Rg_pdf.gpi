@@ -1,0 +1,15 @@
+
+set xlabel "r"
+set ylabel "Rg"
+
+#set logs y
+
+p '<myHist ../Rg_N100000_MUA27.2_MUS24.55_G0.80.dat 0 20 ' u (0.5*($1+$2)):3:4 w yerrorlines t 'murine'\
+, '<myHist ../Rg_N100000_MUA25.0_MUS25.0_G0.0.dat 0 20 ' u (0.5*($1+$2)):3:4 w yerrorlines t 'g=0.0'\
+, '<myHist ../Rg_N100000_MUA25.0_MUS25.0_G0.3.dat 0 20 ' u (0.5*($1+$2)):3:4 w yerrorlines t 'g=0.3'\
+, '<myHist ../Rg_N100000_MUA25.0_MUS25.0_G0.5.dat 0 20 ' u (0.5*($1+$2)):3:4 w yerrorlines t 'g=0.5'\
+, '<myHist ../Rg_N100000_MUA25.0_MUS25.0_G0.7.dat 0 20 ' u (0.5*($1+$2)):3:4 w yerrorlines t 'g=0.7'\
+, '<myHist ../Rg_N100000_MUA25.0_MUS25.0_G0.9.dat 0 20 ' u (0.5*($1+$2)):3:4 w yerrorlines t 'g=0.9'
+
+
+
